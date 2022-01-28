@@ -1,0 +1,14 @@
+.btn {
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 22px;
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    background-color: lightblue;
+  }
+}
