@@ -5,7 +5,7 @@ import { oneOf, string, number } from 'prop-types';
 const Button = ({ color, backgroundColor, height, width, children }) => {
   return (
     <button className='btn' style={{ color, backgroundColor, height, width }}>
-      {children} testt
+      {children} 
     </button>
   );
 };
