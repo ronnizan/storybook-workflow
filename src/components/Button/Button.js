@@ -3,15 +3,13 @@ import './Button.css';
 import { oneOf, string, number, func } from 'prop-types';
 
 const Button = ({ color, backgroundColor, height, width, children, login }) => {
-  const [val, setVal] = useState(children);
-
   return (
     <button
       className='btn'
       onClick={() => login({ name: 'ron' })}
       style={{ color, backgroundColor, height, width }}
     >
-      {val}
+      {children}
     </button>
   );
 };
