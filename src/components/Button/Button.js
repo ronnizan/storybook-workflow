@@ -11,7 +11,7 @@ const Button = ({ color, backgroundColor, height, width, children, login }) => {
       onClick={() => login({ name: 'ron' })}
       style={{ color, backgroundColor, height, width }}
     >
-      {val}
+      {val} + test
     </button>
   );
 };
